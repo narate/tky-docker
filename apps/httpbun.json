@@ -1,15 +1,14 @@
 {
   "name": "httpbun",
   "slug": "httpbun",
-  "api_id": "1",
-  "org_id": "1",
+  "api_id": "httpbin",
+  "org_id": "default",
   "use_keyless": true,
   "version_data": {
     "not_versioned": true,
     "versions": {
       "Default": {
-        "name": "Default",
-        "use_extended_paths": true
+        "name": "Default"
       }
     }
   },
