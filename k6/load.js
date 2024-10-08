@@ -137,19 +137,19 @@ export function differentMethod() {
   const expr = randomIntBetween(1, 5);
   switch (expr) {
     case 1:
-      http.get(`${BASE_URL}/post`, payload, params);
+      http.post(`${BASE_URL}/post`, payload, params);
       break;
     case 2:
-      http.get(`${BASE_URL}/patch`, payload, params);
+      http.patch(`${BASE_URL}/patch`, payload, params);
       break;
     case 3:
-      http.get(`${BASE_URL}/delete`, payload, params);
+      http.del(`${BASE_URL}/delete`, payload, params);
       break;
     case 4:
-      http.get(`${BASE_URL}/put`, payload, params);
+      http.put(`${BASE_URL}/put`, payload, params);
       break;
     case 5:
-      http.get(`${BASE_URL}/response-headers`, payload, params);
+      http.post(`${BASE_URL}/response-headers`, payload, params);
       break;
   }
 
